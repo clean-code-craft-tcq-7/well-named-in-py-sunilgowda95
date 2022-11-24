@@ -11,3 +11,4 @@ def print_manual():
     color_code_manual = get_color_code_manual()
     for each_pair in color_code_manual:
         print(f'Pair no. {color_code_manual.index(each_pair)+1}, Major color is {each_pair[0]}, Minor color is {each_pair[1]}')
+    return
